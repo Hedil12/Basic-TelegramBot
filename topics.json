@@ -1,0 +1,89 @@
+[
+    {
+        "intro": [
+            {
+                "ID":1,
+                "Name":"Variables & Types",
+                 "Introduction": [
+                            "A variable is a symbolic name that is a reference or pointer to an object.",
+                            "Once an object is assigned to a variable, you can refer to the object by that name.",
+                            "But the data itself is still contained within the object"
+                        ]
+            },
+            {
+                "ID":2,
+                "Name":"Basic operators",
+                "Introduction": [
+                            "Operators are symbols which tell the interpreter to do a specific operation,",
+                            "such as arithmetic, comparison, logical, and so on.",
+                            "The different types of operators in Python are listed below:",
+                            "1.  Arithmetic Operators.",
+                            "2.  Relational Operators.",
+                            "3.  Bitwise Operators."
+                        ]
+            },
+            {
+                "ID":3,
+                "Name":"Conditional Statements",
+                "Introduction": [
+                            "A conditional statement as the name suggests itself, is used to handle conditions in your program.",
+                            "These statements guide the programs while making decisions based on the conditions encountered by the program.",
+                            "Python has 4 key Conditional Statements:",
+                            "1.  if Statement.",
+                            "2.  if..else. Statement.",
+                            "3.  Nested if Statement.",
+                            "4.  if-elif Statement."
+                        ]
+            },
+            {
+                "ID":4,
+                "Name":"Loops",
+                "Introduction": [
+                            "A loop is a sequence of instructions that is continually repeated until a range or certain condition is reached.",
+                            "Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked, such as whether a counter has reached a prescribed number.",
+                            "There are 2 types of Loops:",
+                            "1.  'for' Loop.",
+                            "2.  'while' Loop."
+                        ]
+            },
+            {
+                "ID":5,
+                "Name":"List",
+                "Introduction": [
+                            "List are used to store multiple items in a single variable.",
+                            "It can be ordered, changeable, and allow duplicate values.",
+                            "List items are indexed, the first item has index [0], the second item has index [1] etc."
+                        ]
+            },
+            {
+                "ID":6,
+                "Name":"Functions",
+                "Introduction": [
+                            "A function is a block of organized, reusable code that is used to perform a single, related action.",
+                            "Functions can be used adaptively for your application and a high degree of code reusing.",
+                            "As you already know, Python gives you many built-in functions like print(), etc. but you can create your own functions.",
+                            "These functions are called user-defined functions"
+                        ]
+            },
+            {
+                "ID":7,
+                "Name":"Dictionaries",
+                "Introduction": [
+                            "A dictionary is an unordered collection of key-value pairs, where each key is unique and associated with a value.",
+                            "In dictionary the order of the items in the dictionary may vary each time the dictionary is created or modified.",
+                            "Dictionaries are commonly used to represent structured data, such as user profiles or configuration settings, and are a powerful tool for data processing and manipulation in Python."
+                        ]
+            },
+            {
+                "ID":8,
+                "Name":"Class & Objects",
+                "Introduction": [
+                            "A class is a user-defined type that describes what a certain type of object will look like.",
+                            "A class description consists of a declaration and a definition. Usually these pieces are split into separate files.",
+                            "An object is a single instance of a class. You can create many objects from the same class type."
+                        ]
+            }
+        ]
+    }
+]
+

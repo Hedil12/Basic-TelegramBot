@@ -1,0 +1,117 @@
+[
+    {
+        "T&E":[
+            {
+                "ID":1,
+                "Name":"Variables & Types",
+                "Examples":[ "Data types: Numeric Types (integer, float) , String, Boolean ", 
+                             "Integer: represents positive and negative whole numbers (e.g. 2,-5,0)",
+                             "Float: represents decimal values (e.g. 2.0) ",
+                             "Boolean: represents conditions in terms of (e.g. True/False) "
+            ],
+                "Tips":[
+                    " Choosing variable names: Variable names should be descriptive and meaningful so that other programmers can easily understand the purpose of the variable. Variable names should be in lowercase letters, with words separated by underscores. Avoid using reserved words or built-in function names as variable names.",
+                    "Type checking: You can use the type() function to check the data type of a variable. You can also use the isinstance() function to check if a variable is an instance of a particular class or data type.",
+                    "Declaring variables: In Python, variables are declared by assigning a value to them. Unlike other programming languages, you don't need to specify the data type of a variable when you declare it. Python infers the data type based on the value assigned to the variable."
+                ]
+            },{
+                "ID":2,
+                "Name":"Basic operators",
+                "Examples":["Addition [+]: Add two or more values",
+                "Subtraction [-]: Subtracts values",
+                "Product/Multiplication [*]: Multiply values together", 
+                "Division[/]:  Divides one value by another",
+                "(Modulus)Remainder[%]:  When it two value divide it return the remainder",
+                "Exponentiation[**]: Raises one value to the power of another. 5**6 means 5^6",
+                "Comparison operators: Comparing two values",
+                "E.g [== : check if two value are equal]",
+                "   [!=] check two values are not equal - the exclaimation mark means not",
+                "[>]: checking whether a value is greater than another ",
+                "[<]: checking whether a value is smaller than another "
+                
+            ],
+                "Tips":[
+                    "Use parentheses to group operations and clarify the order o f operations. For example, (2 + 3) * 4 is different from 2 + (3 * 4).",
+                    "Be aware of integer division vs. floating point division. If you want to perform floating point division, use the float() function to convert one or both operands to a float. Alternatively, you can use the // operator for integer division.",
+                    "Use the modulus operator (%) to get the remainder of a division operation. This can be useful for tasks such as checking if a number is even or odd.",
+                    "Be careful when using the + operator with strings. It concatenates strings, but if one operand is a string and the other is not, you'll get a TypeError.",
+                    "Follow BODMAS rule: Bracket, Operation, Multiplication, Addition, Subtraction"
+                ]
+            },{
+                "ID":3,
+                "Name":"Conditional Statements",
+                "Examples":[
+                    "How to use conditional statements in coding",
+				    "You can have multiple conditions in a if statement",
+				    "There are 3 types of conditions"
+                ],
+                "Tips":[
+                    "If condition A is true, then do this.\nIf condition A wasn't true, then if [else if] condition B is true, then do this instead.\nIf none of those conditions have been met [else], do this.",
+                    "Y = 1990\nif Y<=1999 and Y>=1990:\n    print('Hello there, you 90s kid')",
+                    "if, else if , else"
+                ]
+            },{
+                "ID":4,
+                "Name":"Loops",
+                "Examples":[
+                    "Looping Through a String:\nfor x in 'apple':\n   print(x)\nOutput:\na\np\np\nl\ne",
+                    "Looping through using Range():\nfor i in range(2,6):\n     print(i)\nOutput:\n2\n3\n4\n5",
+                    "Looping through using Range():\nfor y in range(2,12,3):\n  print(y)\nOutput\n2\n5\n8\n11"
+                ],
+                "Tips":[
+                    "Knowing when to use a for loop vs a while loop is important.",
+                    "For loops are best used when you have a collection of items you want to iterate over.",
+                    "While loops are best used when you need to repeat a block of code until a certain condition is met."
+                ]
+            },{
+                "ID":5,
+                "Name":"List",
+                "Examples":[
+                    "One List with Loops:\nfruits = ['apple', 'banana', 'cherry']\nfor x in fruits:\n     print(x)\nOutput:\napple\nbanana\ncherry",
+                    "Two List with nested Loops:\nadj = ['big','tasty']\nfruits = ['apple','cherry']\nfor x in adj:\n    for y in fruits:\n      print(x, y)\nOutput:\nbig apple\nbig cherry\ntasty apple\ntasty cherry",
+                    "Print List:\nnumbers = [1, 2, 5]\nprint(numbers)\nOutput: [1, 2, 5]"
+                ],
+                "Tips":[
+                    "The syntax of lists in Python are very important.",
+                    "Lists are created using square brackets [] and is not to be confused with {}",
+                    "each item in the list is separated by a comma.\nHere's an example: [A, B, C]"
+                ]
+            },{
+                "ID":6,
+                "Name":"Functions",
+                "Examples":[
+                    "A simple function that prints a message to the console.",
+                    "A function that takes two arguments and returns their sum.",
+                    "A function that takes a list of numbers and returns their average."
+                ],
+                "Tips":[
+                    "Use descriptive function names",
+                    "Keep functions short and focused",
+                    "Use default parameter values"
+                ]
+            },{
+                "ID":7,
+                "Name":"Dictionaries",
+                "Examples":[
+                    "Accessing Elements from Dictionary:\nstudent_id = {111: 'Eric', 112: 'Kyle', 113: 'Butters'}\nprint(student_id[111])  # prints Eric\nprint(student_id[113])  # prints Butters",
+                    "Add Elements to a Python Dictionary:\ncapital_city = {'Nepal': 'Kathmandu', 'England': 'London'}\nprint('Initial Dictionary: ',capital_city)\ncapital_city['Japan'] = 'Tokyo'\nprint('Updated Dictionary: ',capital_city)\nInitial Dictionary:  {'Nepal': 'Kathmandu', 'England': 'London'}\nUpdated Dictionary:  {'Nepal': 'Kathmandu', 'England': 'London', 'Japan': 'Tokyo'}",
+                    "Removing elements from Dictionary:\nstudent_id = {111: 'Eric', 112: 'Kyle', 113: 'Butters'}\nprint('Initial Dictionary: ', student_id)\ndel student_id[111]\nprint('Updated Dictionary ', student_id)\nInitial Dictionary:  {111: 'Eric', 112: 'Kyle', 113: 'Butters'}\nUpdated Dictionary: {112: 'Kyle', 113: 'Butters'}"
+                ],
+                "Tips":[]
+            },{
+                "ID":8,
+                "Name":"Class & Objects",
+                "Examples":["Creatng a class:\nclass Car:\ndef init(self, make, model, year):\n   self.make = make\n  self.model = model\n    self.year = year",
+                "Creating an objects:\nmy_car = Car('Toyota', 'Corolla', 2020)"],
+                "Tips":[
+                    "Plan out your class hierarchy and relationships before you start coding. Think about what attributes and methods each class should have, and how they relate to each other.",
+                    "Use meaningful names for your classes, methods, and attributes. This will make your code easier to read and understand.",
+                    "Follow the conventions for naming classes and methods in Python. Classes should be named using CamelCase, and methods should be named using lowercase_with_underscores.",
+                    "Use comments to explain what each class and method does, and any assumptions or requirements.",
+                    "Use inheritance to reduce code duplication and promote code reuse. If you have several classes with similar attributes and methods, consider creating a parent class with those attributes and methods, and have the child classes inherit from the parent.",
+                    "Use encapsulation to hide the implementation details of your classes. This means using private attributes and methods that can only be accessed from within the class."
+                ]
+            }
+        ]
+    }
+]

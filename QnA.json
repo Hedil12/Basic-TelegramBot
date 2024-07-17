@@ -1,0 +1,734 @@
+[
+    {
+        "Topics":[
+            {
+                "ID":1,
+                "Name":"Variables and Types",
+                "questions": [
+                      {
+                        "question": "Which of the following variables is not valid?",
+                        "answer": [
+                            {
+                                "options":[{
+                                    "Scores":"incorrect",
+                                    "scores":"incorrect",
+                                    "1-scores":"correct",
+                                    "scoreS":"incorrect"
+                                    }]
+
+                            }
+                        ],
+                        "Explanation":["the correct way for this variable to be valid is 1_score."]
+
+                      },
+                      {
+                        "question":"How do you create a variable with a numeric value of 5 ?",
+                        "answer": [
+                            {
+                                "options":[{
+                                    "x = 5":"incorrect",
+                                    "x = int(5)":"incorrect",
+                                    "x:int = 5":"incorrect",
+                                    "All the above":"correct"
+                                    }]
+                            }
+                        ],
+                        "Explanation":["In python, the language is dynamic to assign the variables  to their data types."]
+                      },
+                      {
+                        "question": "Which of the following is not a data type?",
+                        "answer": [
+                            {
+                                "options":[{
+                                    "string": "incorrect",
+                                    "float": "incorrect",
+                                    "double": "correct",
+                                    "int": "incorrect"
+                                    }]
+                            }
+                        ],
+                        "Explanation":["In python, there is no such variable type. It exist in other language like java."]
+                      },
+                      {
+                        "question": "Which data type can be used to store a percentage (decimal) value?",
+                        "answer": [
+                            {
+                                "options":[{
+                                    "boolean": "incorrect",
+                                    "float": "correct",
+                                    "string": "incorrect",
+                                    "integer": "incorrect"
+                                    }]
+                            }
+                        ],
+                        "Explanation":["A float is a data type that represents decimal numbers with a high degree of precision,",
+                        "making it ideal for storing percentages that require decimal places."
+                    ]
+                      },
+                      {
+                          "question": "Which of the following gives the output as “ello” from name = “Hello, World!”?",
+                          "answer": [
+                              {
+                                  "options":[{
+                                    "print(name[1:5])": "correct",
+                                    "print(name[1:4])": "incorrect",
+                                    "print(name[2:5])": "incorrect",
+                                    "print(name[2:6])": "incorrect"
+                                    }]
+                              }
+                          ],
+                          "Explanation":["The string index starts from 0, so name[1] returns the second character of the string which is 'e',",
+                          "and name[5] returns the sixth character which is ",
+                          ". The slice notation [1:5] returns the characters from the second index up to (but not including) the sixth index,",
+                          "which are 'e', 'l', 'l', and 'o', respectively.",
+                          "Therefore, the output is 'ello'."
+                        ]
+                      }
+                    ]
+            },
+            {
+                "ID":2,
+                "Name":"Basic operator",
+                "questions": [
+                    {
+                        "question": "Which operator is used to multiply numbers?",
+                        "answer": [
+                            {
+                            "options":[{
+                                "#":"incorrect",
+                                "x":"incorrect",
+                                "*":"correct",
+                                "%":"incorrect"
+                                }]
+                        }
+                        ],
+                        "Explanation":[
+                            "% is called modulus which returns the remainder of division of two numbers.",
+                            "'x' is the wrong way instead we use '*'.",
+                            "'#' is irrelvant"
+                        ]
+                
+                    },
+                    {
+                        "question": "Which operator can be used to compare two values?",
+                        "answer": [
+                            {
+                            "options":[{
+                                "=":"incorrect",
+                                "<>":"incorrect",
+                                ".equals":"incorrect",
+                                "==":"correct"
+                                }]
+                        }
+                        ],
+                        "Explanation":[
+                            "The .equals() method is not a built-in method in Python, and it is not used for comparing integers.",
+                            "It is a method that is commonly used in other programming languages such as Java to compare objects for equality.",
+                            "In Python, the equivalent method for comparing objects for equality is the _eq_() method.",
+                            "However, this method is typically used for comparing objects of custom classes, not integers.",
+                            "So, to compare integers in Python, you can use the == operator."
+                        ]
+                    },
+                    {
+                        "question": "Which operator returns the remainder of the division between two numbers?",
+                        "answer": [
+                            {
+                            "options":[{
+                                "%": "correct",
+                                "/": "incorrect",
+                                "*": "incorrect",
+                                "**": "incorrect"
+                                }]
+                        }
+                        ],
+                        "Explanation":["The operator that returns the remainder of the division between",
+                        "two numbers is the modulus operator,represented by the symbol %.",
+                        "For example, 7 % 3 returns the remainder of dividing 7 by 3, which is 1.","The modulus operator can be used with integers and floating-point numbers."]
+                    },
+                    {
+                        "question": "Which of the following operators has the highest precedence?",
+                        "answer": [
+                            {
+                            "options":[{
+                                "%": "incorrect",
+                                "*": "incorrect",
+                                "+": "incorrect",
+                                "**": "correct"
+                                }]
+                        }
+                        ],
+                        "Explanation":["In Python, the order of precedence for operators is **, %, *, /, +, and -.",
+                        "The exponentiation operator (**) has the highest precedence,",
+                        "followed by the modulus operator (%), and then the multiplication and division operators (* /),",
+                        "which have equal precedence. Addition and subtraction operators (+ -) also have equal precedence and are evaluated last.",
+                        "It's important to understand the order of precedence when writing expressions with multiple operators."
+                      ]
+                    },
+                    {
+                        "question": "What is the output of the following code?\na = 5\nb = 2\nprint(a % b)",
+                        "answer": [
+                            {
+                                "options":[{
+                                    "3": "incorrect",
+                                    "2.5": "incorrect",
+                                    "2": "incorrect",
+                                    "1": "correct"
+                                    }]
+                            }
+                        ],
+                        "Explanation":["In the code, the % operator is the modulus operator,",
+                        "which returns the remainder of dividing the left operand by the right operand.",
+                        "So a % b gives the remainder when 5 is divided by 2, which is 1."
+                      ]
+                    }
+                    ]
+        },
+        {
+            "ID":3,
+            "Name":"Conditional Statement",
+            "questions": [
+                {
+                    "question": "In a Python program, a control structure:",
+                    "answer": [
+                        {
+                            "options":[{
+                                "Dictates what happens before the program starts and after it terminates" : "incorrect",
+                                "Defines program-specific data structures" : "incorrect",
+                                "Manages the input and output of control characters":"incorrect",
+                                "Directs the order of execution of the statements in the program":"correct"
+                                }]
+                        }
+                    ],
+                    "Explanation":["Control structures determine which statements in the program",
+                    "will be executed and in what order,",
+                    "allowing for statements to be skipped over or executed repeatedly.",
+                    "if, if/else, and if/elif/else statements",
+                    "are all examples of control structures that allow",
+                    "for statements to be skipped over or executed conditionally:\n",
+                    "if <expr>:\n<statement>\n",
+                    "if <expr>:\n<statement(s)>\nelse:\n<statement(s)>\n",
+                    "if <expr>:\n<statement(s)>\nelif <expr>:\n<statement(s)>\nelif <expr>:\n<statement(s)>\n...\nelse:\n<statement(s)>",
+                    "The order of execution of statements in a program is called control flow."
+                ]
+                },
+                {
+                    "question": "Which one of the following if statements will not execute successfully:",
+                    "answer": [
+                        {
+                            "options":[{
+                                "If (1,2):\nprint('foo')":"incorrect",
+                                "If (1,2):\n        print('foo')":"incorrect",
+                                "If (1,2): print('foo')":"incorrect",
+                                "If (1,2):\n    print('foo')":"correct"}]
+                        }
+                    ],
+                    "Explanation":[">>> if (1, 2):",
+                    "... print('foo')",
+                    "File '<stdin>'', line 2",
+                    "print('foo')",
+                    "   ^","IndentationError: expected an indented block",
+                    "This statement fails because the statement following the if must be indented."
+                ]
+                },
+                {
+                    "question": "What signifies the end of a statement block or suite in Python?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "A line that is indented less than the previous line":"correct",
+                                "A comment":"incorrect",
+                                "}":"incorrect",
+                                "end":"incorrect"}]
+                        }
+                    ],
+                    "Explanation":["No specific token denotes the end of a block in Python.",
+                    "In Python, blocks are defined by indentation in accordance with the off-side rule.",
+                    "When a statement occurs on a line which is indented less than the previous one,",
+                    "it indicates the end of a block."
+                ]
+                },
+                {
+                    "question": "What is the value of this expression:\n'a' + 'x' if '123'.isdigit() else 'y' + 'b'",
+                    "answer": [
+                        {
+                            "options":[{
+                                "axb":"incorrect",
+                                "ab":"incorrect",
+                                "ax":"correct",
+                                "axyb":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The conditional expression has a lower precedence than other operators,",
+                    " so the + operator binds more tightly. The expression shown equivalent to this:\n",
+                    ">>> ('a' + 'x') if '123'.isdigit() else ('y' + 'b')","'ax'",
+                    "Since '123'.isdigit() is True, the output is 'a' + 'x', or 'ax'."
+                ]
+                },
+                {
+                    "question": "Fill the blank with the correct answer so that expression is equal to true.\n3 __ 4:",
+                    "answer": [
+                        {
+                            "options":[{
+                                "<":"correct",
+                                ">":"incorrect",
+                                "<=":"incorrect",
+                                ">=":"incorrect"}]
+                        }
+                    ],
+                    "Explanation":["Because 3 is smaller than 4."]
+                }
+                ]
+        },
+        {
+            "ID":4,
+            "Name":"Loop",
+            "questions": [
+                {
+                    "question": "What is the output of the following while loop ?\n i = 1\nwhile i < 5:\n  print(i)\n  i += 1",
+                    "answer": [
+                        {
+                            "options":[{
+                                "1 2 3 4" : "correct",
+                                "1 2 3 4 5" : "incorrect",
+                                "2 3 4 5" : "incorrect",
+                                "None of the above" : "incorrect"}]
+                        }
+                    ],
+                    "Explanation":["The while loop is used to print values of the variable 'x' until it is less than 5.",
+                    "Thus the loop will only run 4 times and prints the values of 'x' each time the loop is ran,",
+                    "which is why the output will be 1, 2, 3, 4."
+                ]
+                },
+                {
+                    "question": "What is the output of the following while loop ?\n x = 5\nwhile x > 0:\n  print(x)\n  x -= 2",
+                    "answer": [
+                        {
+                            "options":[{
+                                "5 3 1 -2" : "incorrect",
+                                "None of the above" : "correct",
+                                "3 1" : "incorrect",
+                                "3 1 -2" : "incorrect"}]
+                        }
+                    ],
+                    "Explanation":["The while loop is used to print values of the variable 'x' until it is more than 5.",
+                    "Thus the loop will only run 4 times and prints the values of 'x' each time the loop is ran,",
+                    "which is why the output will be 5, 3, 1 which is also none of the given options."
+                ]
+                },
+                {
+                    "question": "What is the output of the following for loop ?\nfruits = ['apple', 'banana', 'cherry']\nfor x in fruits:\n  print(x)",
+                    "answer": [
+                        {
+                            "options":[{
+                                "['apple', 'banana', 'cherry]" : "incorrect",
+                                "apple banana cherry" : "correct",
+                                "0 1 2" : "incorrect",
+                                "None of the above" : "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The for loop is used to iterate the fruits list and print each element.",
+                    "The loop runs 3 times and prints the values of 'x' in the list which are apple, banana and cherry."
+                ]
+                },
+                {
+                    "question": "What is the output of the following for loop >\nnumbers = [1, 2, 3, 4, 5]\ntotal = 0\nfor num in numbers:\n  total += num\nprint(total)",
+                    "answer": [
+                        {
+                            "options":[{
+                                "1" : "incorrect",
+                                "10" : "incorrect",
+                                "15" : "correct",
+                                "25" : "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The for loop is used to iterate the numbers list and add each element to the variable 'total'.",
+                    "After the loop completes, the sum of all elements in the list is printed.",
+                    "Thus the output of the code is 15."
+                ]
+                },
+                {
+                    "question": "What is the output of the following while loop ?\n x = 3\nwhile x >0;\n  print(x)\n  x -= 1\nelse:\n  print('Done')",
+                    "answer": [
+                        {
+                            "options":[{
+                                "3 2 1 0 Done" : "incorrect",
+                                "2 1 Done" : "incorrect",
+                                "None of the above" : "incorrect",
+                                "3 2 1 Done" : "correct"}]
+                        }
+                    ],
+                    "Explanation":["The while loop is used to print the values of varaible 'x' until 'x' is greater than 0.",
+                    "The loop runs 3 times and prints the values of 'x' which are 3, 2, and 1.",
+                    "After the loop is completed, it follows on to the else condition where 'Done' will be printed."
+                ]
+                }
+                ]
+        },
+        {
+            "ID":5,
+            "Name":"Lists",
+            "questions": [
+                {
+                    "question": "What should x be in order to retrieve the second value in the list ?\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list[x])",
+                    "answer": [
+                        {
+                            "options":[{
+                                "3" : "incorrect",
+                                "1" : "correct",
+                                "0" : "incorrect",
+                                "2" : "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["In this case, x is the index position. As the first position is index 0,",
+                    "the second position's index would be 1, third position's index would be 2 so on and so forth.",
+                    "The position's index will always be 1 less than the position itself."
+                ]
+                },
+                {
+                    "question": "What will be the output of the following code ?\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list[-1])",
+                    "answer": [
+                        {
+                            "options":[{
+                                "2" : "incorrect",
+                                "1" : "incorrect",
+                                "5" : "correct",
+                                "4" : "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The index position '-1' would always refer to the last position",
+                    "of the list no matter the size of the list."
+                ]
+                },
+                {
+                    "question": "What will be the output of the following code ?\nmy_list = [1, 2, 3, 4, 5]\nmy_list.append(6)\nprint(my_list)",
+                    "answer": [
+                        {
+                            "options":[{
+                                "[2, 3, 4, 5, 6]" : "incorrect",
+                                "None of the above" : "incorrect",
+                                "[1, 2, 3, 4, 5, 6]" : "correct",
+                                "[1, 2, 3, 4, 5]" : " incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The command 'append' adds the element only to the last position of the list."]
+                },
+                {
+                    "question": "What will be the output of the following code ?\nmy_list = [1, 2, 3, 4, 5]\nmy_list.remove(3)\nprint(my_list)",
+                    "answer": [
+                        {
+                            "options":[{
+                                "[1, 2, 3, 4]" : "incorrect",
+                                "[2, 3, 4, 5]" : "incorrect",
+                                "None of the above" : "incorrect",
+                                "[1, 2, 4, 5]" : "correct"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The command remove() takes in the element in the list to remove it.",
+                    "In this case, the number 3 is removed. Not to be confused with index."]
+                },
+                {
+                    "question": "What will be the output of the following code ?\nmy_list = [1, 2, 3, 4, 5]\nprint(len(my_list))",
+                    "answer": [
+                        {
+                            "options":[{
+                                "None of the above" : "incorrect",
+                                "0" : "incorrect",
+                                "5" : "correct",
+                                "1" : "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The command len() returns the total number of elements in the list."]
+                }
+                ]
+        },
+        {
+            "ID":6,
+            "Name":"Function",
+            "questions": [
+                {
+                    "question": "What is the correct way to create a function in python?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "function myfunction():": "incorrect",
+                                "def myFunction():": "correct",
+                                "Create myFunction():": "incorrect",
+                                "new Function()": "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["This defines a function named my_function using the def keyword, followed by the function name and parentheses.",
+                    "Any parameters that the function takes would be listed within the parentheses.",
+                    "The colon at the end of the first line indicates the start of the function body, which is indented below.",
+                    "This is where the actual code for the function goes."
+                ]
+                },
+                {
+                    "question": "What is a function in Python?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "A keyword that performs a specific task.": "incorrect",
+                                "A block of code that performs a specific task and can be called multiple times.": "correct",
+                                "A variable that stores a value.": "incorrect",
+                                "A loop that repeats a specific task.": "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["In Python, a function is a block of code that performs a specific task",
+                    "and can be called multiple times from different parts of a program. It is defined using the def keyword,",
+                    "followed by a name and parentheses, and optionally, parameters.",
+                    "The body of the function is indented and contains the code that will be executed when the function is called."
+                ]
+                },
+                {
+                    "question": "What is the syntax for defining a function in Python?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "function my_function():": "incorrect",
+                                "def my_function():": "correct",
+                                "Create my_function():": "incorrect",
+                                "new Function()": "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["In this syntax, 'def' is a keyword that indicates that a function is being defined.",
+                    "'function_name' is the name given to the function, which should be descriptive of the task the function performs.",
+                    "The parentheses are used to specify any parameters that the function accepts. Finally,",
+                    "the colon (:) at the end of the first line is used to indicate the start of the function's code block."
+                ]
+                },
+                {
+                    "question": "What is the keyword used to return a value from a function in Python?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "break": "incorrect",
+                                "pass": "incorrect",
+                                "return": "correct",
+                                "continue": "incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["When a return statement is executed inside a function, it stops the function's execution",
+                    "and sends a result back to the caller. The result can be a single value, a list,",
+                    "a dictionary, or any other Python data type."
+                ]
+                },
+                {
+                    "question": "What is the keyword used to define a default value for a parameter in Python function?",
+                    "answer": [
+                        {
+                            "option1":[{
+                                "return": "incorrect",
+                                "yield": "incorrect",
+                                "pass": "incorrect",
+                                "= (equal sign)": "correct"
+                                }]
+                        }
+                    ],
+                    "Explanation":["The keyword used to define a default value for a parameter in a Python function is the equal sign (=).",
+                    "When defining a function in Python, you can assign a default value to a parameter by using the equal sign (=) and",
+                    "specifying the default value after the parameter name.",
+                    "If a value is not provided for that parameter when the function is called, the default value will be used instead."
+                ]
+                }
+                ]
+        },
+        {
+            "ID":7,
+            "Name":"Dictionary",
+            "questions": [
+                {
+                    "question": "",
+                    "answer": [
+                        {
+                            "options":[{
+                                "{1,2,3}":"incorrect",
+                                "{ “name” :1 , “class”:2}":"incorrect",
+                                "[1,2,3]":"incorrect",
+                                "(1,2,3)":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["To create a dictonary it holds keys and values in the form of {key:value}"]
+                },
+                {
+                    "question": "What is len() used for? ",
+                    "answer": [
+                        {
+                            "options":[{
+                                "To determine how many items a dictionary has":"incorrect",
+                                "To  delete an element":"incorrect",
+                                "To edit an element value":"incorrect",
+                                "To add an element into the dictionary ":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":
+                    [
+                        "To delete an element : del dictionaryName[key] ",
+                        "To edit an element: dictionaryName[key] = newValue",
+                        "To add an element: dictionaryName[newKey]=value"
+                    ]
+                },
+                {
+                    "question": "How do we change the value of 'mary' to 20? members = {'mary':18}",
+                    "answer": [
+                        {
+                            "options":[{
+                                "change(key)":"incorrect",
+                                "change(value)":"incorrect",
+                                "members['mary'] = 20":"correct",
+                                "members[20] = 'mary'":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":
+                    [
+                        "Option 1 and 2 is irrelevant",
+                        "It is important to know which is the keys and values",
+                        "The key is 'mary' and value is 18 ",
+                        "To change the value of 'mary' it is in the form of dictionaryName[key]=newValue"
+                    ]
+                },
+                {
+                    "question": "How do we check if the key is already inside the dictionary?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "If 'mary' in members:":"correct",
+                                "If 'mary' exist members":"incorrect",
+                                "If 'mary' == exist":"incorrect",
+                                "None of the above":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["We use 'in' keyword to check whether a key is in the dictionary."]
+                },
+                {
+                    "question": "How do we extract keys from dictionary to list? ",
+                    "answer": [
+                        {
+                            "options":[{
+                                "memberList = list(keys())":"incorrect",
+                                "memberList =list(members.keys())":"correct",
+                                "memberList = list(members.values())":"incorrect",
+                                "memberList = list(values())":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":
+                    [
+                        ".keys() is used to obtain the keys in the dictionary.",
+                        ".values() is used to obtain the values in the dictionary.",
+                        "We must have the name of the dictionary infront to obtain the keys or values."
+                    ]
+                }
+                ]
+        },
+        {
+            "ID":8,
+            "Name":"Class & Objects",
+            "questions": [
+                {
+                    "question": "_____ is used to create an object.",
+                    "answer": [
+                        {
+                            "options":[{
+                                "class":"incorrect",
+                                "constructor":"correct",
+                                "User-defined functions":"incorrect",
+                                "In-built functions":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":
+                    [
+                        "A constructor will be defined in the class and called when an object is created.",
+                        "The constructor initialise the object attributes and can take arguments to set their initial values.",
+                        "It uses the '__init__()' function to defined "
+                    ]
+                },
+                {
+                    "question": "What is setattr() used for?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "To access the attribute of the object":"incorrect",
+                                "To set an attribute":"correct",
+                                "To check if an attribute exists or not":"incorrect",
+                                "To delete an attribute":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":
+                    [
+                        "'setattr()' is a built-in function used to set values of an attribute of an object.",
+                        "setattr(obj,name,value)",
+                        "Example: setarr(person,'name','alice')",
+                        "print(person.name)",
+                        "output : 'Alice'"
+                    ]
+                },
+                {
+                    "question": "What is hasattr(obj,name) used for?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "To access the attribute of the object":"incorrect",
+                                "To delete an attribute":"incorrect",
+                                "To check if an attribute exists or not":"correct",
+                                "To set an attribute":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":
+                    [
+                        "'hasattr()' is a built-in function that checks if an object has a specified attribute.", 
+                        "hasattr(person,”alice”)",
+                        "If “alice” exists it returns true, otherwise it is false"
+                    ]
+                },
+                {
+                    "question": "What is the correct way of del an object? ",
+                    "answer": [
+                        {
+                            "options":[{
+                                "del p1":"incorrect",
+                                "delattr(obj,name)":"incorrect",
+                                "All of the above":"correct",
+                                "None of the above":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["Both ways is correct, 'delattr(obj,name)' is a built in function and it also can delete an object"]
+                },
+                {
+                    "question": "Which of the following Python code creates an empty class?",
+                    "answer": [
+                        {
+                            "options":[{
+                                "class A: \n    return":"incorrect",
+                                "class A: \n    pass":"correct",
+                                "class A: ":"incorrect",
+                                "It is not possible to create an empty class":"incorrect"
+                                }]
+                        }
+                    ],
+                    "Explanation":["Class definitions cannot be empty. To avoid error, we use 'pass' statement."]
+                }
+                    ]
+            }
+        ]
+    }
+]
