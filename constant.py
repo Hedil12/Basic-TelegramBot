@@ -1,1 +1,1 @@
-API_key_tele="5887215921:AAELAzqSJNOCJoOtYzSLAuRt3CiFsSAamTo"
+API_key_tele="YOUR API TOKEN" 
